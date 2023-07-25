@@ -12,7 +12,7 @@ const showHiddenPass = (inputPass, inputIcon) => {
         input.type = 'password'
 
         iconEye.classList.remove('ri-eye-line')
-        iconEye.classList.add('ri-eye-line')
+        iconEye.classList.add('ri-eye-off-line')
       }
     })
 }
